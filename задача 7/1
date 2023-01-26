@@ -1,0 +1,13 @@
+
+def triangl_2(kat1, kat2):
+    kvgip = kat1 ** 2 + kat2 ** 2
+    gip = math.sqrt(kvgip)
+    return gip
+
+
+if triangl_1(8, 9) < triangl_2(9, 11):
+    print("Первый больше")
+else:
+    print("Второй больше")
+
+
